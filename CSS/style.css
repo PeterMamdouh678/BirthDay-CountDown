@@ -1,0 +1,81 @@
+.image{
+    position: relative;
+
+}
+
+body{
+    margin: 0;
+    background-color: hsl(235, 16%, 14%);
+    font-size: 14px;
+    font-family: 'Red Hat Text', sans-serif;
+
+}
+svg{
+    size: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.countdown{
+    text-align: center;
+    position: absolute;
+    top: 37%;
+    left: 33.4%;
+}
+
+#day{
+    padding: 3rem;
+}
+
+#hour{
+    padding: 5rem;
+}
+
+#min{
+    padding: 3.5rem;
+}
+
+#sec{
+    padding: 5.3rem;
+}
+
+.counter{
+   text-align: center;
+   position: absolute;
+   left: 31%;
+   top: 37%;
+   display: inline-flex;
+   padding: 2rem;
+   
+}
+
+.days{
+    padding:3rem;
+}
+.hours{
+    padding:3rem;
+}
+.min{
+    padding:3rem;
+}
+.sec{
+    padding:3rem;
+}
+
+
+P{
+    color: hsl(237, 18%, 59%);
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.image h1{
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 43%;
+    color: White;
+
+}
+span{
+    color: white;
+}
